@@ -260,6 +260,6 @@ class Program
         Console.WriteLine("10. API клиент для погоды");
         await GetWeatherAsync("Moscow");
 
-        Console.ReadLine(); // Чтобы консольное окно не закрывалось сразу
+        Console.ReadLine(); 
     }
 }
